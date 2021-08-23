@@ -1,0 +1,19 @@
+{
+    "name": "UI Jobs",
+    "url": "https://github.com/yakkomajuri/test-plugin",
+    "description": "I don't do much.",
+    "main": "index.js",
+    "posthogVersion": ">= 1.25.0",
+    "config": [
+        {
+            "markdown": "## Hello\nLorem ipsum lorem ipsum lorem ipsum lorem ipsum."
+        },
+        {
+            "key": "someConfig",
+            "hint": "Some description",
+            "name": "Config Field",
+            "type": "string",
+            "required": true
+        }
+    ]
+}
