@@ -22,6 +22,9 @@
           "someField": { 
               "type": "string"
           },
+          "someNumberField": { 
+              "type": "number"
+          },
           "someJsonField": { 
               "type": "json",
               "required": true
