@@ -25,7 +25,7 @@
           "someJsonField": { 
               "type": "json",
               "required": true
-          }
+          },
           "someBooleanField": { 
               "type": "boolean",
               "required": true
