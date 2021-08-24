@@ -19,9 +19,17 @@
     "public_jobs": {
       "test": {
         "payload": {
-          "someField": "string",
-          "someJsonField": "json",
-          "someBooleanField": "boolean"
+          "someField": { 
+              "type": "string"
+          },
+          "someJsonField": { 
+              "type": "json",
+              "required": true
+          }
+          "someBooleanField": { 
+              "type": "boolean",
+              "required": true
+          }
         }
       }
     }
