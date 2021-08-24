@@ -34,6 +34,10 @@
               "required": true
           }
         }
+        "linked_task": {
+          "name": "a_long_export",
+          "limit": 1
+        }
       }
     }
 }
