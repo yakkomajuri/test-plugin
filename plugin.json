@@ -32,7 +32,11 @@
           "someBooleanField": { 
               "type": "boolean",
               "required": true
-          }
+          },
+          "someDateField": { 
+              "type": "date",
+              "required": false
+          }   
         },
         "linked_task": {
           "name": "a_long_export",
